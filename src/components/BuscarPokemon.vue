@@ -104,9 +104,7 @@ export default {
       }))   
     },
     seeDetails(name){
-      console.log(name)
-      // const resp = await getPokemonName(this.name)     
-      // this.pokemons = resp.message
+      this.$router.push({ path: `/pokemon/${name}` })
     }
   }
 }
