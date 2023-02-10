@@ -2,9 +2,10 @@
   <div id="app">
 
     <h3 class="font-weight-bold">
-      POKE-MENU
+      POKEMON
     </h3>
     <BuscarPokemon />
+    
     
 
 <!-- Nossa ideia de interface é uma tela com apenas um campo de busca no centro da tela, que ao ser 
@@ -17,7 +18,7 @@ Obviamente quanto mais informações você mostrar melhor (organizadas, usando p
 então fique a vontade para exibir o que mais achar interessante. -->
 
 
-stats[0].base_stat E stats[0].stat.name
+<!-- stats[0].base_stat E stats[0].stat.name -->
 
   </div>
 </template>
