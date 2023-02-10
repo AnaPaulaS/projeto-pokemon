@@ -1,17 +1,38 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+    <h3 class="font-weight-bold">
+      POKE-MENU
+    </h3>
+    <BuscarPokemon />
+    
+
+<!-- Nossa ideia de interface é uma tela com apenas um campo de busca no centro da tela, que ao ser 
+acionado com o nome do pokémon, irá submeter esta pesquisa para a PokeAPI, retornando as informações 
+do pokémon buscado e de suas evoluções (Evolution Chains).
+Para cada um dos pokémons listados (o pesquisado e suas evoluções), gostaríamos de ver seu nome e sua imagem.
+Quando clicarmos em um pokémon listado, queremos listar suas principais características 
+(hp, attack, defense, special attack, special defense e speed). 
+Obviamente quanto mais informações você mostrar melhor (organizadas, usando princípios básicos de UI/UX), 
+então fique a vontade para exibir o que mais achar interessante. -->
+
+
+stats[0].base_stat E stats[0].stat.name
+
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import BuscarPokemon from './components/BuscarPokemon.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    BuscarPokemon
+  },
+  data() {
+    return {
+    }
   }
 }
 </script>
